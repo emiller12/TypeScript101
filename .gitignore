@@ -7,3 +7,4 @@
 # Ignore the compiled JavaScript files.
 *.js
 !2_FunctionsBefore.js
+!4_InterfacesBefore.js
