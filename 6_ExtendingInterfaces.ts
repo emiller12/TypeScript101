@@ -28,14 +28,14 @@ function generateGreeting(thePerson : Person) : string {
 	return greeting;
 }
 
-function calculateBattingAverage (player : Cricketer) : number {
+function calculateBattingAverage(player : Cricketer) : number {
 	return player.runs / player.matches;
 }
 
 
-/***********************
+/***************************************
  * Generate some greetings and averages
- ***********************/
+ ***************************************/
 
 var result1 : string;
 var person1 : Cricketer = {firstname: "Steve", lastname: "Smith", matches: 33, runs: 3095, wickets: 16};
